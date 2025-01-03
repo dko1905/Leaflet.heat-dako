@@ -1,8 +1,8 @@
 {
   "name": "leaflet.heat",
-  "version": "0.2.0",
-  "description": "A tiny and fast Leaflet heatmap plugin.",
-  "homepage": "https://github.com/Leaflet/Leaflet.heat",
+  "version": "0.3.0",
+  "description": "A tiny and fast Leaflet heatmap plugin (dako-fork)",
+  "homepage": "https://github.com/dko1905/Leaflet.heat-dako",
   "keywords": [
     "heatmap",
     "canvas",
@@ -11,10 +11,10 @@
     "leaflet",
     "plugin"
   ],
-  "author": "Vladimir Agafonkin",
+  "author": "Daniel Florescu",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Leaflet/Leaflet.heat.git"
+    "url": "git://github.com/dko1905/Leaflet.heat-dako.git"
   },
   "main": "dist/leaflet-heat.js",
   "devDependencies": {
@@ -50,5 +50,6 @@
     "undef": true,
     "unused": true,
     "browser": true
-  }
+  },
+  "packageManager": "pnpm@9.1.3+sha256.7f63001edc077f1cff96cacba901f350796287a2800dfa83fe898f94183e4f5f"
 }

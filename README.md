@@ -1,4 +1,4 @@
-Leaflet.heat
+Leaflet.heat (dako-fork)
 ==========
 
 A tiny, simple and fast [Leaflet](http://leafletjs.com) heatmap plugin.
@@ -62,6 +62,12 @@ Unless `max` option is specified, intensity should range between `0.0` and `1.0`
 - **redraw()**: Redraws the heatmap.
 
 ## Changelog
+
+### 0.3.0 &mdash; Jan 03 2025
+- Fix errors on redraw if map does not exist anymore ([204e20b](https://github.com/Leaflet/Leaflet.heat/commit/204e20b1a9203e9b61347becb7f7fa5fdff42e67), [d2871b3](https://github.com/Leaflet/Leaflet.heat/commit/d2871b3bda5398ed7966e6c055a8ce705cce96c7))
+- Support ILayer's 'pane' property with Leafletjs 1.0 ([a7f07cb](https://github.com/Leaflet/Leaflet.heat/commit/a7f07cb9ad866c984f563de9cc3a78e889618ddd))
+- Add getBounds() function to heatmap layer ([b3c181b](https://github.com/Leaflet/Leaflet.heat/commit/b3c181bac220c6bba6a5df9291fa52d881ca9071))
+- Update `simpleheat` to 0.4.0 ([8474cac](https://github.com/Leaflet/Leaflet.heat/commit/8474cac2ecc25744d7addc6f03aa32945f9c72fc))
 
 ### 0.2.0 &mdash; Oct 26, 2015
 
